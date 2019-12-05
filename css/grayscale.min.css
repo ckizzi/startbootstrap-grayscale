@@ -101,6 +101,7 @@
  font-family: 'Ibarra Real Nova', serif;
   font-size: 2.5rem;
   background: white;
+
   -webkit-text-fill-color: white;
   -webkit-background-clip: text;
 }
@@ -113,7 +114,7 @@
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
-    line-height: 4rem;
+
   }
 }
 
@@ -124,8 +125,8 @@
   }
   .masthead h1 {
     font-size: 6.5rem;
-    line-height: 6.5rem;
-    letter-spacing: 0.8rem;
+    line-height: 2rem;
+    
   }
   .masthead h2 {
     max-width: 30rem;
