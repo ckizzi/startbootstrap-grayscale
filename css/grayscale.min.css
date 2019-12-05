@@ -64,7 +64,7 @@
     background-color: #FFFFFF;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #FFD700;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
@@ -98,7 +98,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+ font-family: 'Ibarra Real Nova', serif;
   font-size: 2.5rem;
   background: white;
   -webkit-text-fill-color: white;
