@@ -10,6 +10,7 @@
 }
 
 #mainNav .navbar-toggler {
+	font-family: 'Sulphur Point', sans-serif;
   font-size: 80%;
   padding: 0.75rem;
   color: #FFB700;
@@ -21,7 +22,8 @@
 }
 
 #mainNav .navbar-brand {
-  color: #FFD720;
+  font-family: 'Josefin Sans', sans-serif;
+	color: #FFD720;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -234,7 +236,7 @@
 
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: 'Varela Round';
+  font-family: 'Sulphur Point', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
