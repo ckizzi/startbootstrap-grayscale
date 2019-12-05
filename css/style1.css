@@ -1,18 +1,10 @@
-body {
-  display: grid;
-  place-items: center;
-  height: 100vh;
-  margin: 200
-  ;
-}
-
 .container {
   text-align: left;
   max-width: 60%;
 }
 
 .typity {
-  background-position: 0% 100%;
+  background-position: 50% 100%;
   border-bottom: 3px solid #fff700;
   box-sizing: border-box;
   font-size: 2rem;
@@ -22,7 +14,7 @@ body {
 }
 .typity::after {
   animation: blink-cursor 0.75s step-end infinite;
-  background-color: #ffffff00;
+  background-color: #ffffff;
   content: "";
   display: block;
   height: 2rem;
@@ -32,7 +24,7 @@ body {
   width: 2px;
 }
 .typity.highlight {
-  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.2) 50%, transparent 50%);
+  background-image: linear-gradient(to left, rgba(255,241,0,0.50) 50%, transparent 50%);
   background-position: 100% 100%;
   background-repeat: no-repeat;
   background-size: 200% 2rem;
