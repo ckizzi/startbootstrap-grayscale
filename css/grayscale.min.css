@@ -229,7 +229,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #FFC400;
 }
 
 .contact-section .card h4 {
@@ -240,7 +240,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #FFE400;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -273,12 +273,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #FFF700;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #FFB100;
 }
 
 .bg-black {
@@ -290,7 +290,7 @@ a:focus, a:hover {
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #FFD100 !important;
 }
 
 footer {
