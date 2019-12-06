@@ -38,7 +38,7 @@ function getRandomPun() {
 	"Hi I'm Ckrizzi. Please save my GPA",
 	"Hi I'm Ckrizzi. I love yellow.",
 	"Hi I'm Ckrizzi. Tell me what your favourite tea is.",
-	"Hi I'm Ckrizzi. "
+	"Hi I'm Ckrizzi. I'm broke."
   ];
   const index = Math.floor(Math.random() * puns.length);
 
