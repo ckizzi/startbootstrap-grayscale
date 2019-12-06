@@ -29,13 +29,16 @@ function getRandomPun() {
     "Hi I'm Ckrizzi. I love hojicha.",
     "Hi I'm Ckrizzi. I love ramen.",
     "Hi I'm Ckrizzi. I love illustrating.",
-    "Hi I'm Ckrizzi. I like film making.",
+    "Hi I'm Ckrizzi. I like filmmaking.",
     "Hi I'm Ckrizzi. I love portraits.", 
 	"Hi I'm Ckrizzi. I love photography.",
     "Hi I'm Ckrizzi. I love colours.",
     "Hi I'm Ckrizzi. I love art.",
     "Hi I'm Ckrizzi. I love sketching.",
-	   "Hi I'm Ckrizzi. Hire me!!!",
+	"Hi I'm Ckrizzi. Please save my GPA",
+	"Hi I'm Ckrizzi. I love sketching.",
+	"Hi I'm Ckrizzi. Please save my GPA",
+	"Hi I'm Ckrizzi. Please save my GPA"
   ];
   const index = Math.floor(Math.random() * puns.length);
 
