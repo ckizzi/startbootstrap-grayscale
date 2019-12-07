@@ -185,7 +185,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #FFB100;
   }
 }
 
@@ -199,7 +199,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #FFD100;
     border-width: .25rem;
     width: 30%;
   }
