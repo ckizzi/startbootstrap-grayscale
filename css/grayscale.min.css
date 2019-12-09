@@ -93,7 +93,7 @@ font-family: 'Sulphur Point', sans-serif;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background:  url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 90%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -102,7 +102,7 @@ font-family: 'Sulphur Point', sans-serif;
 
 .masthead h1 {
  font-family: 'Ibarra Real Nova', serif;
-  font-size: 2.5rem;
+  font-size: 3rem;
   background: white;
 
   -webkit-text-fill-color: white;
