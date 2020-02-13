@@ -419,6 +419,7 @@ footer {
 
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
+  height: auto;
 }
 
 .portfolio-modal .modal-content button {
