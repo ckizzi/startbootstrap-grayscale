@@ -467,9 +467,9 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Homeate Paint</h2>
                 <p class="item-intro text-muted">Ideate, Create, Renovate.</p>
-				  
-				  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSiRPL7vpOJY21vjcRMnyT3bWxz8-9C9l8xmuIRROI8T6kL4U5uiizlCoasTNn3Q1mkYpw2fl2wkRkj/embed?start=false&loop=false&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-               
+                <div class="responsive-google-slides">
+				  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSiRPL7vpOJY21vjcRMnyT3bWxz8-9C9l8xmuIRROI8T6kL4U5uiizlCoasTNn3Q1mkYpw2fl2wkRkj/embed?start=false&loop=false&delayms=5000"></iframe>
+               </div>
 				  <br><br><br>
 				
                 <p>Awarded Second Runner up of the Sub-brand Sponsored Creative Pitch by Camel HK</p>
@@ -1037,7 +1037,22 @@ Stitching, drawing, mage transfer.
       right: 20px;
     }
   </style>
-  
+  <style>
+    .responsive-google-slides {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Ratio */
+      height: 0;
+      overflow: hidden;
+    }
+    .responsive-google-slides iframe {
+      border: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  </style>
   <!-- Custom scripts for this template -->
   <script src="js/grayscale.min.js"></script>
    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
