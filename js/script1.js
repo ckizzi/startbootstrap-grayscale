@@ -25,22 +25,22 @@ function startType(pun, index) {
 
 function getRandomPun() {
   const puns = [
-   "Hi I'm Ckrizzi. I love tea.",
-    "Hi I'm Ckrizzi. I love hojicha.",
-    "Hi I'm Ckrizzi. I love ramen.",
-    "Hi I'm Ckrizzi. I love illustrating.",
-    "Hi I'm Ckrizzi. I like filmmaking.",
-    "Hi I'm Ckrizzi. I love portraits.", 
-	"Hi I'm Ckrizzi. I love photography.",
-    "Hi I'm Ckrizzi. I love colours.",
-    "Hi I'm Ckrizzi. I love art.",
-    "Hi I'm Ckrizzi. I love sketching.",
-	"Hi I'm Ckrizzi. Pineapples on pizza is a sin.",
-	"Hi I'm Ckrizzi. I love yellow.",
-	"Hi I'm Ckrizzi. Tell me what your favourite tea is.",
-  "Hi I'm Ckrizzi. I'm broke.",
-  "Hi I'm Ckrizzi. Do you like hojicha?",
-  "Hi I'm Ckrizzi. I love cute socks."
+   "Hi,  I'm Ckrizzi. I love tea.",
+    "Hi,  I'm Ckrizzi. I love hojicha.",
+    "Hi,  I'm Ckrizzi. I love ramen.",
+    "Hi,  I'm Ckrizzi. I love illustrating.",
+    "Hi,  I'm Ckrizzi. I like filmmaking.",
+    "Hi,  I'm Ckrizzi. I love portraits.", 
+	"Hi,  I'm Ckrizzi. I love photography.",
+    "Hi,  I'm Ckrizzi. I love colours.",
+    "Hi,  I'm Ckrizzi. I love art.",
+    "Hi, I'm Ckrizzi. I love sketching.",
+	"Hi,  I'm Ckrizzi. Pineapples on pizza is a sin.",
+	"Hi,  I'm Ckrizzi. I love yellow.",
+	"Hi,  I'm Ckrizzi. Tell me what your favourite tea is.",
+  "Hi,  I'm Ckrizzi. I'm broke.",
+  "Hi,  I'm Ckrizzi. Do you like hojicha?",
+  "Hi,  I'm Ckrizzi. I love cute socks."
   ];
   const index = Math.floor(Math.random() * puns.length);
 
