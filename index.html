@@ -364,7 +364,7 @@
           <br> 
         </div>
         <div class="scrollable">
-          <div class="row"> 
+          <div class="rowbox"> 
             <div class="column">
               <img src="img/t/1.jpeg" style="width:100%">
               <img src="img/t/2.jpeg" style="width:100%">
@@ -1011,9 +1011,11 @@ Stitching, drawing, mage transfer.
 
   <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <style>.scrollable {
+  <style>
+	  .scrollable {
     height: 750px; /* or any value */
     overflow-y: auto;
+	overflow-x: hidden
   }
   </style>
   <style>
@@ -1023,7 +1025,7 @@ Stitching, drawing, mage transfer.
     
     body {
       margin: 0;
-      font-family: Arial;
+	
     }
     
     .header {
@@ -1031,12 +1033,13 @@ Stitching, drawing, mage transfer.
       padding: 32px;
     }
     
-    .row {
+    .rowbox {
       display: -ms-flexbox; /* IE10 */
       display: flex;
       -ms-flex-wrap: wrap; /* IE10 */
       flex-wrap: wrap;
       padding: 0 4px;
+	
     }
     
     /* Create four equal columns that sits next to each other */
