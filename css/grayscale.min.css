@@ -147,6 +147,17 @@ font-family: 'Sulphur Point', sans-serif;
   text-transform: uppercase;
   letter-spacing: .15rem;
   border: 0;
+outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #FFCB00;
+}
+
+.btn.active {
+  background-color: #FF7800;
+  color: white;
 }
 
 .btn-primary {
