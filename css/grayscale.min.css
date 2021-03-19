@@ -381,7 +381,7 @@ footer {
   max-width: 400px;
   margin: 0 auto;
   padding: 25px;
-  text-align: center;
+  text-align: left;
   background-color: #fff;
 }
 
@@ -410,11 +410,12 @@ footer {
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
+
 }
 
 .portfolio-modal .modal-content {
   padding: 100px 0;
-  text-align: center;
+  text-align: left;
 }
 
 .portfolio-modal .modal-content h2 {
