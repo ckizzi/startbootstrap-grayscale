@@ -348,6 +348,11 @@ footer {
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  text-align: center;
+  margin-top: 90px;
+}
+
+ <!-- notes
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -356,7 +361,12 @@ footer {
   margin-top: -12px;
   text-align: center;
   color: white;
-}
+  margin-top: auto;
+  margin-bottom: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;-->
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
   margin-top: -12px;
